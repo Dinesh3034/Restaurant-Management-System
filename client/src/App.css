@@ -1,0 +1,334 @@
+:root{
+  --red:crimson;
+  --green:#53BF9D;
+  --yellow:#fffb24;
+  --white:whitesmoke;
+}
+
+body,h2{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing{
+  background:url('../image/pexel.jpg');
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  color:var(--white);
+}
+
+header a i,nav a i{
+  margin-right: .5em;
+}
+
+header a{
+  text-decoration:none;
+  color:var(--yellow);
+  min-width: 120px;
+  flex-wrap:wrap;
+  row-gap: 1em;
+}
+
+header{
+  display:flex;
+  padding:1em;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+#logo{
+  flex:3;
+  font-size:1.25em;
+  min-width: 260px;
+}
+
+nav{
+  flex:2;
+  display:flex;
+  align-items: center;
+}
+
+nav a{
+  flex:1;
+}
+
+nav a:hover{
+  color:var(--green);
+}
+
+.maintext{
+  display:flex;
+  flex-direction: column;
+  height:40vh ;
+  justify-content: center;
+  padding:2em;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+ 
+}
+
+.tagline1{
+  color:var(--red);
+  font-size:1.5em;
+  font-weight:border;
+  color: var(--red);
+}
+
+.tagline2{
+  color:#0000D1;
+}
+
+.maintext div{
+  margin-top: .75em;
+}
+
+.maintext button{
+  width:20vw;
+  margin-top: 2em;
+  border-radius:10px;
+  padding:.7em;
+  background-color: var(--green);
+  color:var(--white);
+  border: 1px solid var(--green);
+}
+
+.container
+{
+  width: 50vh;
+  margin:100px 300px;
+  
+  background-color: rgba(255, 255, 255, 0.521);
+  border-radius: 80px;
+  font-weight: bolder;
+      
+}
+
+
+
+
+
+
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+ background-color: #53BF9D;
+  background-size: cover;
+  color:var(--white);
+  
+}
+#menuheading,#contact{
+  
+  font-size: 2.5em;
+  color: red;
+  display: flex;
+  justify-content: center;
+
+}
+.menu th{
+  color:var(--green);
+  font-size: 1.8em;
+
+}
+table{
+  width:100%;
+  padding: 1em;
+
+}
+.menu tr{
+  display:flex;
+  justify-content: center;
+  margin-top:.8em;
+}
+
+.menu td:nth-child(1){
+  flex:1;
+  justify-self: left;
+
+}
+
+.menu td:nth-child(2){
+  justify-self: right;
+}
+
+.maincource{
+  grid-row:span 2;
+
+}
+
+.locations{
+  background:linear-gradient(to right,rgb(100, 100, 100),rgb(53, 52, 52));
+  color:var(--white);
+  display:flex;
+  
+}
+
+.locations h2{
+  color:var(--green);
+  padding:1em;
+  min-width:220px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+h1{
+  color: red;
+  text-align: center;
+}
+
+.address{
+  color: orange;
+  text-align: center;
+  margin-left: 25%;
+  font-size: x-large;
+  margin-top: 5%;
+}
+
+.total{
+ display:flex;
+ flex-direction: row;   
+  margin: 50px;
+  background-color: bisque;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.aboutus {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  max-width: 1300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.aboutus span {
+  color: #e67e22; /* Or any color you prefer */
+}
+
+.about,
+.culinary,
+.hospitality,
+.community {
+  margin-bottom: 30px;
+}
+
+.aboutus h2 {
+  font-size: 24px;
+  color: #e67e22; /* Or any color you prefer */
+}
+
+.aboutus p {
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+.sun {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sun header{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.mark {
+  max-width: 800px;
+  margin: 20px auto;    
+  
+  justify-content: center;
+  
+  background-position: center;
+}
+.mark h2{
+  color: red;
+  text-align: center;
+}
+
+.mark .food-item {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.mark .food h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: green;
+}
+
+.mark .food-item p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
