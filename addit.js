@@ -1,29 +1,30 @@
 const product = [
     {
         id: 0,
-        image: '1.png.jpg',
+        image: 'image/1.png.jpg',
         title: 'Orange juice',
         price: 50,
     },
     {
         id: 1,
-        image: '2.png.jpg',
+        image: 'image/2.png.jpg',
         title: 'Burger',
         price: 160,
     },
     {
         id: 2,
-        image: '3.png.jpg',
+        image: 'image/3.png.jpg',
         title: 'Pizza',
         price: 230,
     },
     {
         id: 3,
-        image: '4.png.jpg',
+        image: 'image/4.png.jpg',
         title: 'Dhosa',
         price: 50,
     }
 ];
+
 
 const categories = [...new Set(product.map(item => item))];
 let i = 0;
