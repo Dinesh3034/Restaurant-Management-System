@@ -11,7 +11,7 @@ body,h2{
 }
 
 .landing{
-  background-image:url('../public/image/pexel.jpg');
+  background-image:url('./public/image/pexel.jpg');
   background-size: cover;
   background-position: center;
   height:100vh;
